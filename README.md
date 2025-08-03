@@ -41,7 +41,8 @@ _A Fast Attentive Denoising Framework for Oracle Bone Inscriptions_
 > The overall architecture of our **OBIFormer**. **(a)** OBIFormer block (OFB) that injects glyph information into the denoising backbone, **(b)** Glyph structural network block (GSNB) that extracts glyph features, **(c)** Channel-wise self-attention block (CSAB) that generates channel-wise self-attention effectively and efficiently, **(d)** Selective kernel feature fusion (SKFF) module that aggregates reconstruction features and glyph features.
 
 ## Release 🚀
-- [2025/6/17] ⚡️ [Github repo](https://github.com/LJHolyGround/OBIFormer) for **OBIFormer** is online.
+- [2025/6/17] ⚡️ Pre-trained models are released !
+- [2025/6/17] ⚡️ [Github repo](https://github.com/LJHolyGround/OBIFormer) for **OBIFormer** is online !
 
 ## Code 💻
 
@@ -56,7 +57,8 @@ Test a trained model:
 python test.py --input_path /path/to/input --store_path /path/to/results --checkpoint /path/to/checkpoint
 ```
 
-Checkpoints are available at the [pretrained](#pretrained) folder.
+Checkpoints are available at the [pretrained](https://github.com/LJHolyGround/OBIFormer/tree/main/pretrained) folder.
+
 
 ## Motivations 💡
 
