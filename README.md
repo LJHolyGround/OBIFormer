@@ -56,6 +56,8 @@ Test a trained model:
 python test.py --input_path /path/to/input --store_path /path/to/results --checkpoint /path/to/checkpoint
 ```
 
+Checkpoints are available at the [pretrained](#pretrained) folder.
+
 ## Motivations 💡
 
 The previous OBI denoising methods either focus on pixel-level information or utilize vanilla transformers for glyph-based OBI denoising, which leads to tremendous computational overhead. Therefore, we proposed a fast attentive denoising framework for oracle bone inscriptions, i.e., **OBIFormer**. It leverages channel-wise self-attention, glyph extraction, and selective kernel feature fusion to reconstruct denoised images precisely while being computationally efficient. Our OBIFormer achieves state-of-the-art denoising performance for PSNR and SSIM metrics on synthetic and original OBI datasets. Furthermore, comprehensive experiments on a real oracle dataset demonstrate the great potential of our OBIFormer in assisting automatic OBI recognition.
